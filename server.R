@@ -25,9 +25,9 @@ server <- function(input, output) {
       theme(plot.title = element_text(face = "bold")) +
       labs(
         x = NULL, y = NULL,
-        title = "Frequency of #rstats Twitter statuses from past 9 days",
-        subtitle = "Twitter status (tweet) counts aggregated using three-hour intervals",
-        caption = "\nSource: Data collected from Twitter's REST API via rtweet"
+        title = "Frequência de status do Twitter sobre #internet e #opendata",
+        subtitle = "Status agregados em intervalos de 5 minutos",
+        caption = "\nFonte: Dados coletados da REST API do Twitter via rtweet"
       )
   })
   
