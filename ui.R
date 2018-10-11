@@ -5,20 +5,7 @@ header <- dashboardHeader(
 )
 
 sidebar <- dashboardSidebar(
-  sidebarMenu(
-    menuItem(
-      selectInput(inputId = "x",
-                  label = "Eixo x",
-                  choices = c("NumPessoasFam", "IdadeAnos", "RendTrabPrinc",
-                              "RendTrabDemais", "RendOutrasFontes", "RendMensal",      
-                              "RendTrab", "pesoRendTrab"),
-                  selected = "NumPessoasFam")
-      ),
-    
-    menuItem(
-      submitButton("Aplicar mudanças")
-      )
-    )
+
 )
 
 
